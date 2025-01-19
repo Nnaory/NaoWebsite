@@ -1,0 +1,186 @@
+* {
+  box-sizing: border-box;
+}
+/*Style body*/
+html, body {
+  background-image: url('assets/images/BackgroundIndexHtml.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+/* Header */
+.headerallpage {
+  color: white;
+  font-family: "Ubuntu", serif;
+  font-weight: 300;
+  padding: 5px;
+}
+.headertext {
+  text-align: right;
+}
+
+/* Footer */
+.footerpage {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+}
+.bagianquotes {
+  padding: 0;
+}
+.quotes {
+    font-family: "Ubuntu", serif;
+    font-weight: 400;
+}
+.tokohquotes {
+  font-family: "Montserrat";
+  font-size: 13px;
+}
+.copyright {
+  font-family: "Montserrat";
+  font-size: 5px;
+}
+
+.footer-content a {
+    color: #4CAF50;
+    text-decoration: none;
+    margin: 0 5px;
+    align-items: center;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+}
+
+/* Style sidebar */
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    transition: 0.3s;
+    padding-top: 60px;
+}
+
+/* Sidebar links */
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    font-family: "Ubuntu", serif;
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    transition: 0.3s;
+    color: white;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+/* Close button */
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Page content */
+#main {
+    transition: margin-left .3s;
+    padding: 16px;
+}
+
+/* Open button */
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+}
+
+a {
+    display: inline-block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+/*HEADERNYA*/
+
+.headerpage {
+  margin: 10px;
+  padding: 8px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.teksheader {
+  display: flex;
+  flex-direction: column;
+}
+.titlepage {
+  font-family: "Ubuntu", serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+}
+.deskripsipage {
+  font-family: "Montserrat";
+  color: white;
+}
+.gambarprofil {
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+/*MAINPAGE UTAMA*/
+.mainpagehome {
+  align-items: center;
+  text-align: center;
+}
+.keteranganpage {
+    font-family: "Montserrat";
+    color: white;
+    margin: 10px;
+    border-top: 1px white solid;
+    border-bottom: 1px white solid;
+    padding: 8px;
+}
+
+
+/* ISI PAGE */
+.isipage {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  margin: 10px;
+  padding: 7px;
+}
+.teks-artikel {
+  color: white;
+  font-family: "Montserrat";
+  font-size: 15px;
+  text-indent: 10px;
+  text-align: justify;
+}
