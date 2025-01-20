@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const links = document.querySelectorAll("a");
     links.forEach(link => {
         link.addEventListener("mouseenter", (event) => {
-            event.target.style.backgroundColor = "blue"; 
+            event.target.style.backgroundColor = "#686A6C"; 
             event.target.style.color = "white";
         });
         link.addEventListener("mouseleave", (event) => {
